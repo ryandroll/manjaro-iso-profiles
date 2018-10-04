@@ -1,0 +1,77 @@
+##### KDE minimal for trading station
+# suite for VPS
+# minimal hardware support: only network and displays
+# minimal application: only browser, file managers, terminal and text editor
+# keep appearance original settings though using some resource
+# Sorted by change frequency between distro, high to low
+# -> DE: Desktop Environment, Settings Packages
+# -> Theming: Themes, Icons, Fonts
+# -> DE Intergrated App: File Manager, Preferred Applications
+# -> Common App: Applications, AUR Support
+# -> Hardware Support: Audio Xodec, Connect Package, Network
+# -> Xorg: Input Drivers, Server and Graphics
+
+#---------=> Desktop Environment
+## KDE Group
+plasma-desktop
+## GUI Config and Utils
+kscreen
+plasma-nm
+## Panel Plugin
+## Desktop Utils from freedesktop
+## Misc Utils
+kdesu
+
+#---------=> Settings Packages
+
+#---------=> Theming
+
+#---------=> Fonts
+
+#---------=> File Manager
+dolphin-root	# From personal repo
+# optional dependencies of root privilege
+kde-servicemenus-rootactions
+## Archiving tool
+ark
+# optional dependencies of archiving tool
+p7zip       # 7Z format support
+unarchiver  # RAR format support
+
+#---------=> Preferred Applications
+## Browser, Terminal, Text Editor
+#chromium   # chrome alternative, due to chromium has official package, but need gtk3
+falkon      # Webkit + Qt KDE support, don't need gtk3, choice for light-weight
+konsole
+kate-root	# From personal repo
+## Email, Media Player, Photo, etc
+
+#---------=> Applications
+## Personal Repo
+## GUI Utils
+manjaro-settings-manager
+manjaro-settings-manager-kcm
+## CLI Utils
+openssh
+ufw
+inxi
+numlockx
+## Package Management
+octopi
+octopi-notifier-frameworks
+
+#---------=> AUR Build Support
+
+#---------=>  Input Method
+
+#---------=> Connect Packages
+
+#---------=> Network Support
+avahi       # most file manger need it
+networkmanager
+
+#---------=> Display Manager
+sddm
+
+#---------=> Xorg
+xorg-server
