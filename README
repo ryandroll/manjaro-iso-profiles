@@ -1,1 +1,2 @@
-My arch repository PKGBUILDs
+My manjaro iso profiles reference as https://gitlab.manjaro.org/profiles-and-settings/iso-profiles/tree/master
+Use it after manjaro-iso-tools install then add the folder to iso-profiles
