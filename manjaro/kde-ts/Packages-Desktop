@@ -12,6 +12,9 @@
 # -> Xorg: Input Drivers, Server and Graphics
 
 #---------=> Desktop Environment
+## GUI Library
+gtk3-classic
+qt5-base
 ## KDE Group
 plasma-desktop
 ## GUI Config and Utils
@@ -40,9 +43,11 @@ unarchiver  # RAR format support
 
 #---------=> Preferred Applications
 ## Browser, Terminal, Text Editor
-#chromium   # chrome alternative, due to chromium has official package, but need gtk3
-falkon      # Webkit + Qt KDE support, don't need gtk3, choice for light-weight
+chromium   # chrome alternative, due to chromium has official package, but need gtk3
+#falkon      # Webkit + Qt KDE support, don't need gtk3, choice for light-weight
 konsole
+#terminator
+#tmux
 kate-root	# From personal repo
 ## Email, Media Player, Photo, etc
 
@@ -61,6 +66,7 @@ octopi
 octopi-notifier-frameworks
 
 #---------=> AUR Build Support
+git 		# For zplug build up
 
 #---------=>  Input Method
 
